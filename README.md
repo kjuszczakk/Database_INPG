@@ -1,7 +1,7 @@
 # Database_INPG
 Project:
 <br />
-**Link do Backlogu Produktu **
+**Link do Backlogu Produktu**
 <br />
 https://docs.google.com/spreadsheets/d/1ecI2TT84HWFNLUDG70H-pB_ooenYhEJHVI-zNUazkI8/edit?usp=drive_web&ouid=110411588690603864239
 <br />
