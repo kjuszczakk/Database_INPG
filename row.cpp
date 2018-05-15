@@ -1,10 +1,14 @@
 #include "Row.h"
 int Row::row_index = 1;
 
-Row::Row(std::list<Column*>& podzial,const Product& mleko, int amount = 1000){
-        podzia³[0]->add_toColumn(mleko.getName());
-        podzial[1]->add_toColumn(mleko.getID());
-        podzial[2]->add_toColumn(mleko.getWaznosc());
-        podzial[4]->add_toColumn(mleko.getIlosc());
-        rowIndex++;
+void Row::addData(const std::string &colName, const std::string &data){
+	mapData.insert(std::pair<std::string,std::string>(colName, data));
+}
+void Row::printMapData(){
+	 // showing contents:
+
+	  std::cout << "--------------------------------" <<"\n map data contains:\n" << std::endl;
+	  for ( std::map<std::string,std::string>::iterator it=mapData.begin() ; it != mapData.end(); it++ ){
+		  std::cout << (*it).first << " => " << (*it).second << " ; " <<std::endl;
+	  }
 }
