@@ -1,7 +1,7 @@
 # Database_INPG
 Project:
 <br />
-# WA¯NE INFO
+## WA¯NE INFO
 Zmiana Backlogu Produktu.Bêdziemy tworzyæ bazê danych w MySQL a apke pisaæ w C#. Bêdziemy wykorzystywaæ MySQL i Microsoft 
 Visual
 <br />
