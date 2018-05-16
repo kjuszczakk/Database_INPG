@@ -1,0 +1,21 @@
+class Query{
+public:
+
+	Query(std::string&);
+
+	void parseQuery(std::vector<std::string>*, std::string&);
+
+	void executeQuery();
+
+	void printResult();
+
+	void validateQuery();
+
+	std::string getQueryString();
+
+	//	void setQueryString(std::string&);
+
+	void setTables(std::list<Table*>*);
+
+	Table* getTableByName(const std::string&);
+};
