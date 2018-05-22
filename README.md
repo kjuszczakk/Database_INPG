@@ -7,17 +7,23 @@ Visual
 <br />
 **linki:**
 <br />
+Do zainstalowania:
+<br />
+- Microsoft Visual Community 2017 - https://www.visualstudio.com/pl/downloads/?rr=https%3A%2F%2Fwww.google.pl%2F
+<br />
+- Microsoft Sql Server Express - https://www.microsoft.com/pl-pl/sql-server/sql-server-editions-express
+<br />
 Tutoriale:
 <br />
-https://www.youtube.com/watch?v=Yqvf6Gs9NPA
+Aplikacja - https://www.youtube.com/watch?v=Et2khGnrIqc&t=670s
 <br />
-https://www.youtube.com/watch?v=d4VT9EysPho
+Instalacja MSSE (my instalujemy Express) - https://www.youtube.com/watch?v=yasfZuou3zI
 <br />
-https://www.youtube.com/watch?v=QDEeS8hl8QE
+SQL (Baza Danych):
 <br />
-https://www.youtube.com/watch?v=HKLFABj2BZ8
+https://www.youtube.com/watch?v=SperI96edtA&t=922s
 <br />
-https://www.youtube.com/watch?v=wBVw7zk3Zlw
+https://www.youtube.com/watch?v=LG4diJlv2B4
 <br />
 Plik README bêdzie wykorzystywany do komunikacji Scrum Mastera z zespo³em
 <br />
