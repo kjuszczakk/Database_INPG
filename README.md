@@ -1,6 +1,24 @@
 # Database_INPG
 Project:
 <br />
+## WA¯NE INFO
+Zmiana Backlogu Produktu.Bêdziemy tworzyæ bazê danych w MySQL a apke pisaæ w C#. Bêdziemy wykorzystywaæ MySQL i Microsoft 
+Visual
+<br />
+**linki:**
+<br />
+Tutoriale:
+<br />
+https://www.youtube.com/watch?v=Yqvf6Gs9NPA
+<br />
+https://www.youtube.com/watch?v=d4VT9EysPho
+<br />
+https://www.youtube.com/watch?v=QDEeS8hl8QE
+<br />
+https://www.youtube.com/watch?v=HKLFABj2BZ8
+<br />
+https://www.youtube.com/watch?v=wBVw7zk3Zlw
+<br />
 Plik README bêdzie wykorzystywany do komunikacji Scrum Mastera z zespo³em
 <br />
 **Link do Backlogu Produktu**
