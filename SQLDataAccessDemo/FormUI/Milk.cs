@@ -17,5 +17,17 @@ namespace FormUI
         public string CenaZaKartonBrutto { get; set; }
 
         public string WspolrzedneMagazynu { get; set; }
+
+
+        public string FullInfo
+        {
+            // "Mleko1 2 (35)"
+            get
+            {
+                return $"{ NazwaMleka } { IloscKartonow } ({ CenaZaKartonBrutto })";
+            }
+           
+        }
+
     }
 }

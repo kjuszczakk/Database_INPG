@@ -16,6 +16,9 @@ namespace FormUI
         public Dashboard()
         {
             InitializeComponent();
+
+            ListaMlek.DataSource = milks;
+            ListaMlek.DisplayMember = "FullInfo";
         }
 
         private void SearchButton_Click(object sender, EventArgs e)
@@ -23,6 +26,11 @@ namespace FormUI
             DataAccess db = new DataAccess();
 
             milks = db.GetMilk(ListaMlek.Text);
+        }
+
+        private void Dashboard_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

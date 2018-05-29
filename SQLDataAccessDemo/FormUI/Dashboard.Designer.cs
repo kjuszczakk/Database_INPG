@@ -37,17 +37,17 @@
             // ListaMlek
             // 
             this.ListaMlek.FormattingEnabled = true;
-            this.ListaMlek.ItemHeight = 16;
+            this.ListaMlek.ItemHeight = 20;
             this.ListaMlek.Location = new System.Drawing.Point(65, 115);
             this.ListaMlek.Name = "ListaMlek";
-            this.ListaMlek.Size = new System.Drawing.Size(391, 388);
+            this.ListaMlek.Size = new System.Drawing.Size(391, 384);
             this.ListaMlek.TabIndex = 0;
             // 
             // WpiszMleko
             // 
             this.WpiszMleko.Location = new System.Drawing.Point(197, 24);
             this.WpiszMleko.Name = "WpiszMleko";
-            this.WpiszMleko.Size = new System.Drawing.Size(258, 22);
+            this.WpiszMleko.Size = new System.Drawing.Size(258, 26);
             this.WpiszMleko.TabIndex = 1;
             // 
             // wpisz
@@ -56,7 +56,7 @@
             this.wpisz.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.wpisz.Location = new System.Drawing.Point(38, 30);
             this.wpisz.Name = "wpisz";
-            this.wpisz.Size = new System.Drawing.Size(143, 16);
+            this.wpisz.Size = new System.Drawing.Size(175, 20);
             this.wpisz.TabIndex = 2;
             this.wpisz.Text = "Wpisz nazwę mleka";
             // 
@@ -72,7 +72,7 @@
             // 
             // Dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(798, 535);
             this.Controls.Add(this.SearchButton);
@@ -83,6 +83,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Dashboard";
             this.Text = "INPG Database";
+            this.Load += new System.EventHandler(this.Dashboard_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
