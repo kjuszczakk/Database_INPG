@@ -12,9 +12,17 @@ namespace FormUI
 {
     public partial class Dashboard : Form
     {
+        List<Milk> milks = new List<Milk>();
         public Dashboard()
         {
             InitializeComponent();
+        }
+
+        private void SearchButton_Click(object sender, EventArgs e)
+        {
+            DataAccess db = new DataAccess();
+
+            milks = db.GetMilk(ListaMlek.Text);
         }
     }
 }

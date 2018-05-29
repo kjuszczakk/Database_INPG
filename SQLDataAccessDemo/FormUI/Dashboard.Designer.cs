@@ -68,6 +68,7 @@
             this.SearchButton.TabIndex = 3;
             this.SearchButton.Text = "Szukaj";
             this.SearchButton.UseVisualStyleBackColor = true;
+            this.SearchButton.Click += new System.EventHandler(this.SearchButton_Click);
             // 
             // Dashboard
             // 
