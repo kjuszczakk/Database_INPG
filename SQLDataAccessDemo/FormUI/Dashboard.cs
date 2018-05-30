@@ -25,7 +25,7 @@ namespace FormUI
         {
             DataAccess db = new DataAccess();
 
-            milks = db.GetMilk(ListaMlek.Text);
+            milks = db.GetMilks(ListaMlek.Text);
         }
 
         private void Dashboard_Load(object sender, EventArgs e)
