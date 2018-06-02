@@ -25,12 +25,13 @@ namespace FormUI
         {
             DataAccess db = new DataAccess();
 
-            milks = db.GetMilks(ListaMlek.Text);
+            milks = db.GetMilks(WpiszMleko.Text);
+            ListaMlek.Refresh();
+
+            ListaMlek.DataSource = milks;
+            ListaMlek.DisplayMember = "FullInfo";
         }
 
-        private void Dashboard_Load(object sender, EventArgs e)
-        {
-
-        }
+     
     }
 }

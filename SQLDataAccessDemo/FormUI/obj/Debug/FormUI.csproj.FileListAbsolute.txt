@@ -1,0 +1,13 @@
+D:\Database_INPG\SQLDataAccessDemo\FormUI\obj\Debug\FormUI.csprojAssemblyReference.cache
+D:\Database_INPG\SQLDataAccessDemo\FormUI\obj\Debug\FormUI.Dashboard.resources
+D:\Database_INPG\SQLDataAccessDemo\FormUI\obj\Debug\FormUI.Properties.Resources.resources
+D:\Database_INPG\SQLDataAccessDemo\FormUI\obj\Debug\FormUI.csproj.GenerateResource.cache
+D:\Database_INPG\SQLDataAccessDemo\FormUI\obj\Debug\FormUI.csproj.CoreCompileInputs.cache
+D:\Database_INPG\SQLDataAccessDemo\FormUI\bin\Debug\FormUI.exe.config
+D:\Database_INPG\SQLDataAccessDemo\FormUI\bin\Debug\FormUI.exe
+D:\Database_INPG\SQLDataAccessDemo\FormUI\bin\Debug\FormUI.pdb
+D:\Database_INPG\SQLDataAccessDemo\FormUI\bin\Debug\Dapper.dll
+D:\Database_INPG\SQLDataAccessDemo\FormUI\bin\Debug\Dapper.xml
+D:\Database_INPG\SQLDataAccessDemo\FormUI\obj\Debug\FormUI.csproj.CopyComplete
+D:\Database_INPG\SQLDataAccessDemo\FormUI\obj\Debug\FormUI.exe
+D:\Database_INPG\SQLDataAccessDemo\FormUI\obj\Debug\FormUI.pdb
