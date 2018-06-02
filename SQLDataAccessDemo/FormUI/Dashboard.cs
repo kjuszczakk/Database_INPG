@@ -17,6 +17,10 @@ namespace FormUI
         {
             InitializeComponent();
 
+            UpdateBringing();
+        }
+        private void UpdateBringing()
+        {
             ListaMlek.DataSource = milks;
             ListaMlek.DisplayMember = "FullInfo";
         }
@@ -26,12 +30,14 @@ namespace FormUI
             DataAccess db = new DataAccess();
 
             milks = db.GetMilks(WpiszMleko.Text);
-            ListaMlek.Refresh();
-
-            ListaMlek.DataSource = milks;
-            ListaMlek.DisplayMember = "FullInfo";
+            UpdateBringing();
         }
 
-     
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DataAccess db = new DataAccess();
+            milks = db.GetAll();
+            UpdateBringing();
+        }
     }
 }

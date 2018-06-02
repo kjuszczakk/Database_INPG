@@ -24,7 +24,7 @@ namespace FormUI
             // "Mleko1 2 (35)"
             get
             {
-                return $"{ NazwaMleka } { IloscKartonow } ({ CenaZaKartonBrutto })";
+                return $"{ NazwaMleka }\t { IloscKartonow }\t\t { CenaZaKartonBrutto }\t\t {WspolrzedneMagazynu}";
             }
            
         }

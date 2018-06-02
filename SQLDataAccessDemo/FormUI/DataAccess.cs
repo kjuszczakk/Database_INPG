@@ -13,9 +13,18 @@ namespace FormUI
         {
             using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(Helper.CnnVal("Sample")))
             {
-                var output =  connection.Query<Milk>($"select * from People where NazwaMleka = '{nazwaMleka}'").ToList();
-                //var output = connection.Query<Milk>("dbo.People_GetByLastName @LastName", new { LastName = nazwaMleka }).ToList();
+                //var output =  connection.Query<Milk>($"select * from People where NazwaMleka = '{nazwaMleka}'").ToList();
+                var output = connection.Query<Milk>("dbo.People_GetByLastName @NazwaMleka", new { NazwaMleka = nazwaMleka }).ToList();
 
+                return output;
+            }
+        }
+        public List<Milk> GetAll()
+        {
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(Helper.CnnVal("Sample")))
+            {
+                var output = connection.Query<Milk>("select * from People").ToList();
+           
                 return output;
             }
         }
