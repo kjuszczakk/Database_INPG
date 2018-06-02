@@ -28,5 +28,17 @@ namespace FormUI
                 return output;
             }
         }
+        public void InsertMilk(string nazwaMleka, string iloscKartonow, string cenaZaKartonBrutto, string wspolrzedneMagazynu)
+        {   
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(Helper.CnnVal("Sample")))
+            {
+                //Milk newMilk = new Milk {NazwaMleka = nazwaMleka, IloscKartonow = iloscKartonow, CenaZaKartonBrutto = cenaZaKartonBrutto, WspolrzedneMagazynu = wspolrzedneMagazynu};
+                List<Milk> milks = new List<Milk>();
+                
+                milks.Add(new Milk {NazwaMleka = nazwaMleka, IloscKartonow = iloscKartonow, CenaZaKartonBrutto = cenaZaKartonBrutto, WspolrzedneMagazynu = wspolrzedneMagazynu});
+                
+                connection.Execute("dbo.People_Insert @NazwaMleka, @IloscKartonow, @CenaZaKartonBrutto, @WspolrzedneMagazynu", milks);
+            }
+        }
     }
 }
