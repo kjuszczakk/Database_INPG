@@ -39,5 +39,12 @@ namespace FormUI
             milks = db.GetAll();
             UpdateBringing();
         }
+
+        private void dodajButton_Click(object sender, EventArgs e)
+        {
+            DataAccess db = new DataAccess();
+
+            db.InsertMilk(NazwaText.Text, IloscText.Text, CenaText.Text, MiejsceText.Text);
+        }
     }
 }
