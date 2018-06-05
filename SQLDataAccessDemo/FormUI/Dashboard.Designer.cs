@@ -53,6 +53,7 @@
             this.MiejsceText = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.dodajButton = new System.Windows.Forms.Button();
+            this.Usuń = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // ListaMlek
@@ -294,12 +295,23 @@
             this.dodajButton.UseVisualStyleBackColor = true;
             this.dodajButton.Click += new System.EventHandler(this.dodajButton_Click);
             // 
+            // Usuń
+            // 
+            this.Usuń.Location = new System.Drawing.Point(672, 188);
+            this.Usuń.Name = "Usuń";
+            this.Usuń.Size = new System.Drawing.Size(107, 38);
+            this.Usuń.TabIndex = 10;
+            this.Usuń.Text = "Usuń";
+            this.Usuń.UseVisualStyleBackColor = true;
+            this.Usuń.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(798, 535);
+            this.Controls.Add(this.Usuń);
             this.Controls.Add(this.dodajButton);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
@@ -360,6 +372,7 @@
         private System.Windows.Forms.TextBox MiejsceText;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button dodajButton;
+        private System.Windows.Forms.Button Usuń;
     }
 }
 

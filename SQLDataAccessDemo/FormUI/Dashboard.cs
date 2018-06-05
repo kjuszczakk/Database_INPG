@@ -38,6 +38,7 @@ namespace FormUI
             DataAccess db = new DataAccess();
             milks = db.GetAll();
             UpdateBringing();
+            
         }
 
         private void dodajButton_Click(object sender, EventArgs e)
@@ -45,6 +46,21 @@ namespace FormUI
             DataAccess db = new DataAccess();
 
             db.InsertMilk(NazwaText.Text, IloscText.Text, CenaText.Text, MiejsceText.Text);
+            NazwaText.Text = "";
+            IloscText.Text = "";
+            CenaText.Text = "";
+            MiejsceText.Text = "";
+            milks = db.GetAll();
+            UpdateBringing();
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            DataAccess db = new DataAccess();
+            db.DeleteMilk(milks[ListaMlek.SelectedIndex].NazwaMleka);
+            milks = db.GetAll();
+            UpdateBringing();
         }
     }
 }
